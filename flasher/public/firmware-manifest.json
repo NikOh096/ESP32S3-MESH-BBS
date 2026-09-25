@@ -1,0 +1,230 @@
+{
+  "version": "0.5.0",
+  "license": "GPL-3.0-only",
+  "profiles": [
+    {
+      "id": "meshtastic/n16r8-gpio48",
+      "protocol": "meshtastic",
+      "chip": "ESP32-S3",
+      "flashMB": 16,
+      "ledGPIO": 48,
+      "label": "Meshtastic BBS \u00b7 N16R8 \u00b7 LED GPIO48",
+      "parts": [
+        {
+          "address": 0,
+          "path": "firmware/meshtastic/n16r8-gpio48/bootloader.bin",
+          "size": 21120,
+          "sha256": "d9d0f726113db172fdf60c7a21a2f84c5cd74906e4e8f0358aa2aeebb43d6b31"
+        },
+        {
+          "address": 32768,
+          "path": "firmware/meshtastic/n16r8-gpio48/partition-table.bin",
+          "size": 3072,
+          "sha256": "0c8ea5877fb2d5df0cff000d001f2413f1ef5c698a498a5b3041e1e9b362935e"
+        },
+        {
+          "address": 65536,
+          "path": "firmware/meshtastic/n16r8-gpio48/firmware.bin",
+          "size": 694960,
+          "sha256": "66be2371330b128502844b8b3fc1ab6d2232d21aacf17a3a8f77e8d19e5ebdae"
+        }
+      ]
+    },
+    {
+      "id": "meshtastic/n16r8-gpio38",
+      "protocol": "meshtastic",
+      "chip": "ESP32-S3",
+      "flashMB": 16,
+      "ledGPIO": 38,
+      "label": "Meshtastic BBS \u00b7 N16R8 \u00b7 LED GPIO38",
+      "parts": [
+        {
+          "address": 0,
+          "path": "firmware/meshtastic/n16r8-gpio38/bootloader.bin",
+          "size": 21120,
+          "sha256": "d9d0f726113db172fdf60c7a21a2f84c5cd74906e4e8f0358aa2aeebb43d6b31"
+        },
+        {
+          "address": 32768,
+          "path": "firmware/meshtastic/n16r8-gpio38/partition-table.bin",
+          "size": 3072,
+          "sha256": "0c8ea5877fb2d5df0cff000d001f2413f1ef5c698a498a5b3041e1e9b362935e"
+        },
+        {
+          "address": 65536,
+          "path": "firmware/meshtastic/n16r8-gpio38/firmware.bin",
+          "size": 694960,
+          "sha256": "f6cd0845ecf0128a1a2a1387f3fe5ea433cd05117a71ed59133273d6281b37e9"
+        }
+      ]
+    },
+    {
+      "id": "meshtastic/n8r8-gpio48",
+      "protocol": "meshtastic",
+      "chip": "ESP32-S3",
+      "flashMB": 8,
+      "ledGPIO": 48,
+      "label": "Meshtastic BBS \u00b7 N8R8 \u00b7 LED GPIO48",
+      "parts": [
+        {
+          "address": 0,
+          "path": "firmware/meshtastic/n8r8-gpio48/bootloader.bin",
+          "size": 21120,
+          "sha256": "0c9732775d965c3580128dc99d60fb63e65c9323bec2d8fc835a46a31a8b9b56"
+        },
+        {
+          "address": 32768,
+          "path": "firmware/meshtastic/n8r8-gpio48/partition-table.bin",
+          "size": 3072,
+          "sha256": "0c8ea5877fb2d5df0cff000d001f2413f1ef5c698a498a5b3041e1e9b362935e"
+        },
+        {
+          "address": 65536,
+          "path": "firmware/meshtastic/n8r8-gpio48/firmware.bin",
+          "size": 694960,
+          "sha256": "ce5b580601f6953c1cab98ab9f542da511bb076e6e34f6600ff3f954920e9526"
+        }
+      ]
+    },
+    {
+      "id": "meshtastic/n8r8-gpio38",
+      "protocol": "meshtastic",
+      "chip": "ESP32-S3",
+      "flashMB": 8,
+      "ledGPIO": 38,
+      "label": "Meshtastic BBS \u00b7 N8R8 \u00b7 LED GPIO38",
+      "parts": [
+        {
+          "address": 0,
+          "path": "firmware/meshtastic/n8r8-gpio38/bootloader.bin",
+          "size": 21120,
+          "sha256": "0c9732775d965c3580128dc99d60fb63e65c9323bec2d8fc835a46a31a8b9b56"
+        },
+        {
+          "address": 32768,
+          "path": "firmware/meshtastic/n8r8-gpio38/partition-table.bin",
+          "size": 3072,
+          "sha256": "0c8ea5877fb2d5df0cff000d001f2413f1ef5c698a498a5b3041e1e9b362935e"
+        },
+        {
+          "address": 65536,
+          "path": "firmware/meshtastic/n8r8-gpio38/firmware.bin",
+          "size": 694960,
+          "sha256": "bbeaa0c9b49839fa2f2c7dcf4708a6354f210965096aa733a3a7fadd0cd1a1c3"
+        }
+      ]
+    },
+    {
+      "id": "meshcore/n16r8-gpio48",
+      "protocol": "meshcore",
+      "chip": "ESP32-S3",
+      "flashMB": 16,
+      "ledGPIO": 48,
+      "label": "Meshcore BBS \u00b7 N16R8 \u00b7 LED GPIO48",
+      "parts": [
+        {
+          "address": 0,
+          "path": "firmware/meshcore/n16r8-gpio48/bootloader.bin",
+          "size": 21120,
+          "sha256": "534b128eb9844da9cab5d61cfacea70e37d0a1b213a035d05a29b9434909db60"
+        },
+        {
+          "address": 32768,
+          "path": "firmware/meshcore/n16r8-gpio48/partition-table.bin",
+          "size": 3072,
+          "sha256": "0c8ea5877fb2d5df0cff000d001f2413f1ef5c698a498a5b3041e1e9b362935e"
+        },
+        {
+          "address": 65536,
+          "path": "firmware/meshcore/n16r8-gpio48/firmware.bin",
+          "size": 681088,
+          "sha256": "3c7ec1072d4e3ff5af4909380f1bd0cd703719b438f41c9bce46b1d1e2dbd249"
+        }
+      ]
+    },
+    {
+      "id": "meshcore/n16r8-gpio38",
+      "protocol": "meshcore",
+      "chip": "ESP32-S3",
+      "flashMB": 16,
+      "ledGPIO": 38,
+      "label": "Meshcore BBS \u00b7 N16R8 \u00b7 LED GPIO38",
+      "parts": [
+        {
+          "address": 0,
+          "path": "firmware/meshcore/n16r8-gpio38/bootloader.bin",
+          "size": 21120,
+          "sha256": "534b128eb9844da9cab5d61cfacea70e37d0a1b213a035d05a29b9434909db60"
+        },
+        {
+          "address": 32768,
+          "path": "firmware/meshcore/n16r8-gpio38/partition-table.bin",
+          "size": 3072,
+          "sha256": "0c8ea5877fb2d5df0cff000d001f2413f1ef5c698a498a5b3041e1e9b362935e"
+        },
+        {
+          "address": 65536,
+          "path": "firmware/meshcore/n16r8-gpio38/firmware.bin",
+          "size": 681088,
+          "sha256": "9ed174dea85de6f093b2ba47cfb8e72e3858f7a7c056a671b8b98d1c1aa23eef"
+        }
+      ]
+    },
+    {
+      "id": "meshcore/n8r8-gpio48",
+      "protocol": "meshcore",
+      "chip": "ESP32-S3",
+      "flashMB": 8,
+      "ledGPIO": 48,
+      "label": "Meshcore BBS \u00b7 N8R8 \u00b7 LED GPIO48",
+      "parts": [
+        {
+          "address": 0,
+          "path": "firmware/meshcore/n8r8-gpio48/bootloader.bin",
+          "size": 21120,
+          "sha256": "73d8386ecf6ad213c038e5c17e7ee49472c5d73b823bbbfc8ba95ed9cdf1f1eb"
+        },
+        {
+          "address": 32768,
+          "path": "firmware/meshcore/n8r8-gpio48/partition-table.bin",
+          "size": 3072,
+          "sha256": "0c8ea5877fb2d5df0cff000d001f2413f1ef5c698a498a5b3041e1e9b362935e"
+        },
+        {
+          "address": 65536,
+          "path": "firmware/meshcore/n8r8-gpio48/firmware.bin",
+          "size": 681088,
+          "sha256": "4a2bc37f0eac88ed968669f7b05ab2fc6a5c0e89dc899e5aef94969fd8c88940"
+        }
+      ]
+    },
+    {
+      "id": "meshcore/n8r8-gpio38",
+      "protocol": "meshcore",
+      "chip": "ESP32-S3",
+      "flashMB": 8,
+      "ledGPIO": 38,
+      "label": "Meshcore BBS \u00b7 N8R8 \u00b7 LED GPIO38",
+      "parts": [
+        {
+          "address": 0,
+          "path": "firmware/meshcore/n8r8-gpio38/bootloader.bin",
+          "size": 21120,
+          "sha256": "73d8386ecf6ad213c038e5c17e7ee49472c5d73b823bbbfc8ba95ed9cdf1f1eb"
+        },
+        {
+          "address": 32768,
+          "path": "firmware/meshcore/n8r8-gpio38/partition-table.bin",
+          "size": 3072,
+          "sha256": "0c8ea5877fb2d5df0cff000d001f2413f1ef5c698a498a5b3041e1e9b362935e"
+        },
+        {
+          "address": 65536,
+          "path": "firmware/meshcore/n8r8-gpio38/firmware.bin",
+          "size": 681088,
+          "sha256": "8ab6232b7482f77e204a1149873130b6cfe0f86de517b43cca132285474e1424"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# MESHBBS target selection and pairing are runtime settings stored in NVS.
+# Use the authenticated owner app; serial diagnostics are read-only.
+# No Wi-Fi credentials or Bluetooth PIN are stored in build configuration.
+
+menu "MESHBBS board"
+config MESHBBS_RGB_GPIO
+    int "Addressable RGB LED GPIO"
+    range 0 48
+    default 48
+    help
+        Hosyond/YD ESP32-S3 N16R8 uses GPIO48. Some DevKitC-1 revisions
+        use GPIO38. Check the board schematic before changing this.
+endmenu

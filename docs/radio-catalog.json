@@ -1,0 +1,2563 @@
+{
+  "as_of": "2026-09-24",
+  "meshcore": {
+    "tag": "companion-v1.17.1",
+    "commit": "d92964352441e53b93e8667b802e04f6e072b39e",
+    "url": "https://github.com/meshcore-dev/MeshCore/releases/tag/companion-v1.17.1"
+  },
+  "meshtastic": {
+    "repo": "meshtastic/web-flasher",
+    "commit": "3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3",
+    "path": "public/data/hardware-list.json"
+  },
+  "scope": "Upstream targets and metadata, not a claim that every model has been tested with MESHBBS.",
+  "radios": [
+    {
+      "name": "Ebyte EoRa-S3",
+      "protocol": "MeshCore",
+      "model": "Ebyte_EoRa-S3_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "ebyte_eora-s3",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/ebyte_eora_s3/platformio.ini",
+      "release_assets": [
+        "Ebyte_EoRa-S3_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Ebyte_EoRa-S3_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "GAT562 30S Mesh Kit",
+      "protocol": "MeshCore",
+      "model": "GAT562_30S_Mesh_Kit_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "rak4631",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/gat562_30s_mesh_kit/platformio.ini",
+      "release_assets": [
+        "GAT562_30S_Mesh_Kit_companion_radio_ble-v1.17.1-d929643.uf2",
+        "GAT562_30S_Mesh_Kit_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "GAT562 Mesh Tracker Pro",
+      "protocol": "MeshCore",
+      "model": "GAT562_Mesh_Tracker_Pro_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "rak4631",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/gat562_mesh_tracker_pro/platformio.ini",
+      "release_assets": [
+        "GAT562_Mesh_Tracker_Pro_companion_radio_ble-v1.17.1-d929643.uf2",
+        "GAT562_Mesh_Tracker_Pro_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "GAT562 Mesh Watch13",
+      "protocol": "MeshCore",
+      "model": "GAT562_Mesh_Watch13_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "rak4631",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/gat562_mesh_watch13/platformio.ini",
+      "release_assets": [
+        "GAT562_Mesh_Watch13_companion_radio_ble-v1.17.1-d929643.uf2",
+        "GAT562_Mesh_Watch13_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Heltec ct62",
+      "protocol": "MeshCore",
+      "model": "Heltec_ct62_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "esp32-c3-devkitm-1",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_ct62/platformio.ini",
+      "release_assets": [
+        "Heltec_ct62_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Heltec_ct62_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec E213",
+      "protocol": "MeshCore",
+      "model": "Heltec_E213_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "heltec_e213",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_e213/platformio.ini",
+      "release_assets": [
+        "Heltec_E213_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Heltec_E213_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec mesh solar",
+      "protocol": "MeshCore",
+      "model": "Heltec_mesh_solar_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "heltec_mesh_solar",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_mesh_solar/platformio.ini",
+      "release_assets": [
+        "Heltec_mesh_solar_companion_radio_ble-v1.17.1-d929643.uf2",
+        "Heltec_mesh_solar_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Heltec rc32",
+      "protocol": "MeshCore",
+      "model": "heltec_rc32_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "heltec-rc32",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_rc32/platformio.ini",
+      "release_assets": [
+        "heltec_rc32_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "heltec_rc32_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec rc32 without display",
+      "protocol": "MeshCore",
+      "model": "heltec_rc32_without_display_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "heltec-rc32",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_rc32/platformio.ini",
+      "release_assets": [
+        "heltec_rc32_without_display_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "heltec_rc32_without_display_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec t096",
+      "protocol": "MeshCore",
+      "model": "Heltec_t096_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "heltec_t096",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_t096/platformio.ini",
+      "release_assets": [
+        "Heltec_t096_companion_radio_ble-v1.17.1-d929643.uf2",
+        "Heltec_t096_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Heltec t114",
+      "protocol": "MeshCore",
+      "model": "Heltec_t114_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "heltec_t114",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_t114/platformio.ini",
+      "release_assets": [
+        "Heltec_t114_companion_radio_ble-v1.17.1-d929643.uf2",
+        "Heltec_t114_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Heltec t114 without display",
+      "protocol": "MeshCore",
+      "model": "Heltec_t114_without_display_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "heltec_t114",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_t114/platformio.ini",
+      "release_assets": [
+        "Heltec_t114_without_display_companion_radio_ble-v1.17.1-d929643.uf2",
+        "Heltec_t114_without_display_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Heltec T190",
+      "protocol": "MeshCore",
+      "model": "Heltec_T190_companion_radio_ble_",
+      "cpu": "ESP32 family",
+      "board": "heltec_t190",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE source target; release binary not found; untested",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_t190/platformio.ini",
+      "release_assets": []
+    },
+    {
+      "name": "Heltec t1",
+      "protocol": "MeshCore",
+      "model": "Heltec_t1_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "heltec_t1",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_t1/platformio.ini",
+      "release_assets": [
+        "Heltec_t1_companion_radio_ble-v1.17.1-d929643.uf2",
+        "Heltec_t1_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Heltec tower v2",
+      "protocol": "MeshCore",
+      "model": "Heltec_tower_v2_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "heltec_tower_v2",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_tower_v2/platformio.ini",
+      "release_assets": [
+        "Heltec_tower_v2_companion_radio_ble-v1.17.1-d929643.uf2",
+        "Heltec_tower_v2_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Heltec tracker v2",
+      "protocol": "MeshCore",
+      "model": "heltec_tracker_v2_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "heltec_tracker_v2",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_tracker_v2/platformio.ini",
+      "release_assets": [
+        "heltec_tracker_v2_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "heltec_tracker_v2_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec v2",
+      "protocol": "MeshCore",
+      "model": "Heltec_v2_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "heltec_wifi_lora_32_V2",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_v2/platformio.ini",
+      "release_assets": [
+        "Heltec_v2_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Heltec_v2_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec v3",
+      "protocol": "MeshCore",
+      "model": "Heltec_v3_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "esp32-s3-devkitc-1",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings. Keep the BBS close during pairing; Bluetooth range may be limited.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_v3/platformio.ini",
+      "release_assets": [
+        "Heltec_v3_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Heltec_v3_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec v4",
+      "protocol": "MeshCore",
+      "model": "heltec_v4_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "heltec_v4",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_v4/platformio.ini",
+      "release_assets": [
+        "heltec_v4_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "heltec_v4_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec v4 r8",
+      "protocol": "MeshCore",
+      "model": "heltec_v4_r8_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "heltec_v4_r8",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_v4_r8/platformio.ini",
+      "release_assets": [
+        "heltec_v4_r8_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "heltec_v4_r8_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec v4 r8 tft",
+      "protocol": "MeshCore",
+      "model": "heltec_v4_r8_tft_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "heltec_v4_r8",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_v4_r8/platformio.ini",
+      "release_assets": [
+        "heltec_v4_r8_tft_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "heltec_v4_r8_tft_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec v4 tft",
+      "protocol": "MeshCore",
+      "model": "heltec_v4_tft_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "heltec_v4",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_v4/platformio.ini",
+      "release_assets": [
+        "heltec_v4_tft_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "heltec_v4_tft_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec Wireless Paper",
+      "protocol": "MeshCore",
+      "model": "Heltec_Wireless_Paper_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "esp32-s3-devkitc-1",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_wireless_paper/platformio.ini",
+      "release_assets": [
+        "Heltec_Wireless_Paper_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Heltec_Wireless_Paper_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec Wireless Tracker",
+      "protocol": "MeshCore",
+      "model": "Heltec_Wireless_Tracker_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "esp32-s3-devkitc-1",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_tracker/platformio.ini",
+      "release_assets": [
+        "Heltec_Wireless_Tracker_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Heltec_Wireless_Tracker_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Heltec WSL3",
+      "protocol": "MeshCore",
+      "model": "Heltec_WSL3_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "esp32-s3-devkitc-1",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/heltec_v3/platformio.ini",
+      "release_assets": [
+        "Heltec_WSL3_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Heltec_WSL3_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "ikoka handheld nrf e22 30dbm 096",
+      "protocol": "MeshCore",
+      "model": "ikoka_handheld_nrf_e22_30dbm_096_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "seeed-xiao-afruitnrf52-nrf52840",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/ikoka_handheld_nrf/platformio.ini",
+      "release_assets": [
+        "ikoka_handheld_nrf_e22_30dbm_096_companion_radio_ble-v1.17.1-d929643.uf2",
+        "ikoka_handheld_nrf_e22_30dbm_096_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "ikoka handheld nrf e22 30dbm 096 rotated",
+      "protocol": "MeshCore",
+      "model": "ikoka_handheld_nrf_e22_30dbm_096_rotated_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "seeed-xiao-afruitnrf52-nrf52840",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/ikoka_handheld_nrf/platformio.ini",
+      "release_assets": [
+        "ikoka_handheld_nrf_e22_30dbm_096_rotated_companion_radio_ble-v1.17.1-d929643.uf2",
+        "ikoka_handheld_nrf_e22_30dbm_096_rotated_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "ikoka nano nrf 22dbm",
+      "protocol": "MeshCore",
+      "model": "ikoka_nano_nrf_22dbm_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/ikoka_nano_nrf/platformio.ini",
+      "release_assets": [
+        "ikoka_nano_nrf_22dbm_companion_radio_ble-v1.17.1-d929643.uf2",
+        "ikoka_nano_nrf_22dbm_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "ikoka nano nrf 30dbm",
+      "protocol": "MeshCore",
+      "model": "ikoka_nano_nrf_30dbm_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/ikoka_nano_nrf/platformio.ini",
+      "release_assets": [
+        "ikoka_nano_nrf_30dbm_companion_radio_ble-v1.17.1-d929643.uf2",
+        "ikoka_nano_nrf_30dbm_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "ikoka nano nrf 33dbm",
+      "protocol": "MeshCore",
+      "model": "ikoka_nano_nrf_33dbm_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/ikoka_nano_nrf/platformio.ini",
+      "release_assets": [
+        "ikoka_nano_nrf_33dbm_companion_radio_ble-v1.17.1-d929643.uf2",
+        "ikoka_nano_nrf_33dbm_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "ikoka stick nrf 22dbm",
+      "protocol": "MeshCore",
+      "model": "ikoka_stick_nrf_22dbm_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/ikoka_stick_nrf/platformio.ini",
+      "release_assets": [
+        "ikoka_stick_nrf_22dbm_companion_radio_ble-v1.17.1-d929643.uf2",
+        "ikoka_stick_nrf_22dbm_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "ikoka stick nrf 30dbm",
+      "protocol": "MeshCore",
+      "model": "ikoka_stick_nrf_30dbm_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/ikoka_stick_nrf/platformio.ini",
+      "release_assets": [
+        "ikoka_stick_nrf_30dbm_companion_radio_ble-v1.17.1-d929643.uf2",
+        "ikoka_stick_nrf_30dbm_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "ikoka stick nrf 33dbm",
+      "protocol": "MeshCore",
+      "model": "ikoka_stick_nrf_33dbm_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/ikoka_stick_nrf/platformio.ini",
+      "release_assets": [
+        "ikoka_stick_nrf_33dbm_companion_radio_ble-v1.17.1-d929643.uf2",
+        "ikoka_stick_nrf_33dbm_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "KeepteenLT1",
+      "protocol": "MeshCore",
+      "model": "KeepteenLT1_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "keepteen_lt1",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/keepteen_lt1/platformio.ini",
+      "release_assets": [
+        "KeepteenLT1_companion_radio_ble-v1.17.1-d929643.uf2",
+        "KeepteenLT1_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "LILYGO T-Echo-Lite",
+      "protocol": "MeshCore",
+      "model": "LilyGo_T-Echo-Lite_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "t-echo",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_techo_lite/platformio.ini",
+      "release_assets": [
+        "LilyGo_T-Echo-Lite_companion_radio_ble-v1.17.1-d929643.uf2",
+        "LilyGo_T-Echo-Lite_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "LILYGO T-Echo-Lite non shell",
+      "protocol": "MeshCore",
+      "model": "LilyGo_T-Echo-Lite_non_shell_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "t-echo",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_techo_lite/platformio.ini",
+      "release_assets": [
+        "LilyGo_T-Echo-Lite_non_shell_companion_radio_ble-v1.17.1-d929643.uf2",
+        "LilyGo_T-Echo-Lite_non_shell_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "LILYGO T-Echo Card",
+      "protocol": "MeshCore",
+      "model": "LilyGo_T-Echo_Card_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "t-echo",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_techo_card/platformio.ini",
+      "release_assets": [
+        "LilyGo_T-Echo_Card_companion_radio_ble-v1.17.1-d929643.uf2",
+        "LilyGo_T-Echo_Card_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "LILYGO T-Echo",
+      "protocol": "MeshCore",
+      "model": "LilyGo_T-Echo_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "t-echo",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_techo/platformio.ini",
+      "release_assets": [
+        "LilyGo_T-Echo_companion_radio_ble-v1.17.1-d929643.uf2",
+        "LilyGo_T-Echo_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "LILYGO T3S3 sx1262",
+      "protocol": "MeshCore",
+      "model": "LilyGo_T3S3_sx1262_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "t3_s3_v1_x",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_t3s3/platformio.ini",
+      "release_assets": [
+        "LilyGo_T3S3_sx1262_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "LilyGo_T3S3_sx1262_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "LILYGO T3S3 sx1276",
+      "protocol": "MeshCore",
+      "model": "LilyGo_T3S3_sx1276_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "t3_s3_v1_x",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_t3s3_sx1276/platformio.ini",
+      "release_assets": [
+        "LilyGo_T3S3_sx1276_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "LilyGo_T3S3_sx1276_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "LILYGO T Impulse Plus",
+      "protocol": "MeshCore",
+      "model": "LilyGo_T_Impulse_Plus_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "lilygo_t_impulse_plus_nrf52840",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_t_impulse_plus/platformio.ini",
+      "release_assets": [
+        "LilyGo_T_Impulse_Plus_companion_radio_ble-v1.17.1-d929643.uf2",
+        "LilyGo_T_Impulse_Plus_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "LILYGO TBeam 1W",
+      "protocol": "MeshCore",
+      "model": "LilyGo_TBeam_1W_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "t_beam_1w",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_tbeam_1w/platformio.ini",
+      "release_assets": [
+        "LilyGo_TBeam_1W_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "LilyGo_TBeam_1W_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "LILYGO TDeck",
+      "protocol": "MeshCore",
+      "model": "LilyGo_TDeck_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "t-deck",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings. Standalone UI builds are a different firmware mode.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_tdeck/platformio.ini",
+      "release_assets": [
+        "LilyGo_TDeck_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "LilyGo_TDeck_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "LILYGO TETH Elite sx1262",
+      "protocol": "MeshCore",
+      "model": "LilyGo_TETH_Elite_sx1262_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "esp32s3box",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_teth_elite/platformio.ini",
+      "release_assets": [
+        "LilyGo_TETH_Elite_sx1262_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "LilyGo_TETH_Elite_sx1262_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "LILYGO Tlora C6",
+      "protocol": "MeshCore",
+      "model": "LilyGo_Tlora_C6_companion_radio_ble_",
+      "cpu": "ESP32 family",
+      "board": "esp32-c6-devkitm-1",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE source target; release binary not found; untested",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_tlora_c6/platformio.ini",
+      "release_assets": []
+    },
+    {
+      "name": "LILYGO TLora V2 1 1 6",
+      "protocol": "MeshCore",
+      "model": "LilyGo_TLora_V2_1_1_6_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "ttgo-lora32-v1",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_tlora_v2_1/platformio.ini",
+      "release_assets": [
+        "LilyGo_TLora_V2_1_1_6_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "LilyGo_TLora_V2_1_1_6_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "M5Stack Unit C6L",
+      "protocol": "MeshCore",
+      "model": "M5Stack_Unit_C6L_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "esp32-c6-devkitm-1",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/m5stack_unit_c6l/platformio.ini",
+      "release_assets": [
+        "M5Stack_Unit_C6L_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "M5Stack_Unit_C6L_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Mesh pocket",
+      "protocol": "MeshCore",
+      "model": "Mesh_pocket_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "heltec_mesh_pocket",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/mesh_pocket/platformio.ini",
+      "release_assets": [
+        "Mesh_pocket_companion_radio_ble-v1.17.1-d929643.uf2",
+        "Mesh_pocket_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Meshadventurer sx1262",
+      "protocol": "MeshCore",
+      "model": "Meshadventurer_sx1262_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "esp32doit-devkit-v1",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/meshadventurer/platformio.ini",
+      "release_assets": [
+        "Meshadventurer_sx1262_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Meshadventurer_sx1262_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Meshadventurer sx1268",
+      "protocol": "MeshCore",
+      "model": "Meshadventurer_sx1268_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "esp32doit-devkit-v1",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/meshadventurer/platformio.ini",
+      "release_assets": [
+        "Meshadventurer_sx1268_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Meshadventurer_sx1268_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Meshimi",
+      "protocol": "MeshCore",
+      "model": "Meshimi_companion_radio_ble_",
+      "cpu": "ESP32 family",
+      "board": "esp32-c6-devkitm-1",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE source target; release binary not found; untested",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/xiao_c6/platformio.ini",
+      "release_assets": []
+    },
+    {
+      "name": "meshnology w12",
+      "protocol": "MeshCore",
+      "model": "meshnology_w12_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "meshnology_w12",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/meshnology_w12/platformio.ini",
+      "release_assets": [
+        "meshnology_w12_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "meshnology_w12_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Meshtiny",
+      "protocol": "MeshCore",
+      "model": "Meshtiny_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "meshtiny",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/meshtiny/platformio.ini",
+      "release_assets": [
+        "Meshtiny_companion_radio_ble-v1.17.1-d929643.uf2",
+        "Meshtiny_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "MeshTracker X1",
+      "protocol": "MeshCore",
+      "model": "MeshTracker_X1_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "seeed-mesh-tracker-x1",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/meshtracker_x1/platformio.ini",
+      "release_assets": [
+        "MeshTracker_X1_companion_radio_ble-v1.17.1-d929643.uf2",
+        "MeshTracker_X1_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Minewsemi me25ls01",
+      "protocol": "MeshCore",
+      "model": "Minewsemi_me25ls01_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "minewsemi_me25ls01",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/minewsemi_me25ls01/platformio.ini",
+      "release_assets": [
+        "Minewsemi_me25ls01_companion_radio_ble-v1.17.1-d929643.uf2",
+        "Minewsemi_me25ls01_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Nano G2 Ultra",
+      "protocol": "MeshCore",
+      "model": "Nano_G2_Ultra_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "nano-g2-ultra",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/nano_g2_ultra/platformio.ini",
+      "release_assets": [
+        "Nano_G2_Ultra_companion_radio_ble-v1.17.1-d929643.uf2",
+        "Nano_G2_Ultra_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "nibble screen connect",
+      "protocol": "MeshCore",
+      "model": "nibble_screen_connect_companion_radio_ble_",
+      "cpu": "ESP32 family",
+      "board": "esp32-s3-zero",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE source target; release binary not found; untested",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/nibble_screen_connect/platformio.ini",
+      "release_assets": []
+    },
+    {
+      "name": "nibble zero connect",
+      "protocol": "MeshCore",
+      "model": "nibble_zero_connect_companion_radio_ble_",
+      "cpu": "ESP32 family",
+      "board": "esp32-s3-zero",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE source target; release binary not found; untested",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/nibble_zero_connect/platformio.ini",
+      "release_assets": []
+    },
+    {
+      "name": "ProMicro",
+      "protocol": "MeshCore",
+      "model": "ProMicro_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "promicro_nrf52840",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/promicro/platformio.ini",
+      "release_assets": [
+        "ProMicro_companion_radio_ble-v1.17.1-d929643.uf2",
+        "ProMicro_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "R1Neo",
+      "protocol": "MeshCore",
+      "model": "R1Neo_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "rak4631",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/muziworks_r1_neo/platformio.ini",
+      "release_assets": [
+        "R1Neo_companion_radio_ble-v1.17.1-d929643.uf2",
+        "R1Neo_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "RAK 3112",
+      "protocol": "MeshCore",
+      "model": "RAK_3112_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "esp32-s3-devkitc-1",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/rak3112/platformio.ini",
+      "release_assets": [
+        "RAK_3112_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "RAK_3112_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "RAK 3401",
+      "protocol": "MeshCore",
+      "model": "RAK_3401_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "rak3401",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/rak3401/platformio.ini",
+      "release_assets": [
+        "RAK_3401_companion_radio_ble-v1.17.1-d929643.uf2",
+        "RAK_3401_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "RAK 4631",
+      "protocol": "MeshCore",
+      "model": "RAK_4631_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "rak4631",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/rak4631/platformio.ini",
+      "release_assets": [
+        "RAK_4631_companion_radio_ble-v1.17.1-d929643.uf2",
+        "RAK_4631_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "RAK WisMesh Tag",
+      "protocol": "MeshCore",
+      "model": "RAK_WisMesh_Tag_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "rak4631",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/rak_wismesh_tag/platformio.ini",
+      "release_assets": [
+        "RAK_WisMesh_Tag_companion_radio_ble-v1.17.1-d929643.uf2",
+        "RAK_WisMesh_Tag_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "SenseCap Solar",
+      "protocol": "MeshCore",
+      "model": "SenseCap_Solar_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "seeed_sensecap_solar",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/sensecap_solar/platformio.ini",
+      "release_assets": [
+        "SenseCap_Solar_companion_radio_ble-v1.17.1-d929643.uf2",
+        "SenseCap_Solar_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Station G2",
+      "protocol": "MeshCore",
+      "model": "Station_G2_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "station-g2",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/station_g2/platformio.ini",
+      "release_assets": [
+        "Station_G2_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Station_G2_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Station G3 ESP32",
+      "protocol": "MeshCore",
+      "model": "Station_G3_ESP32_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "station-g3-esp32",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/station_g3_esp32/platformio.ini",
+      "release_assets": [
+        "Station_G3_ESP32_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Station_G3_ESP32_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "t1000e",
+      "protocol": "MeshCore",
+      "model": "t1000e_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "tracker-t1000-e",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/t1000-e/platformio.ini",
+      "release_assets": [
+        "t1000e_companion_radio_ble-v1.17.1-d929643.uf2",
+        "t1000e_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "T Beam S3 Supreme SX1262",
+      "protocol": "MeshCore",
+      "model": "T_Beam_S3_Supreme_SX1262_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "t_beams3_supreme",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_tbeam_supreme_SX1262/platformio.ini",
+      "release_assets": [
+        "T_Beam_S3_Supreme_SX1262_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "T_Beam_S3_Supreme_SX1262_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Tbeam SX1262",
+      "protocol": "MeshCore",
+      "model": "Tbeam_SX1262_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "ttgo-t-beam",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_tbeam_SX1262/platformio.ini",
+      "release_assets": [
+        "Tbeam_SX1262_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Tbeam_SX1262_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Tbeam SX1276",
+      "protocol": "MeshCore",
+      "model": "Tbeam_SX1276_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "ttgo-t-beam",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/lilygo_tbeam_SX1276/platformio.ini",
+      "release_assets": [
+        "Tbeam_SX1276_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Tbeam_SX1276_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "ThinkNode M1",
+      "protocol": "MeshCore",
+      "model": "ThinkNode_M1_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "thinknode_m1",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/thinknode_m1/platformio.ini",
+      "release_assets": [
+        "ThinkNode_M1_companion_radio_ble-v1.17.1-d929643.uf2",
+        "ThinkNode_M1_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "ThinkNode M2",
+      "protocol": "MeshCore",
+      "model": "ThinkNode_M2_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "ESP32-S3-WROOM-1-N4",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/thinknode_m2/platformio.ini",
+      "release_assets": [
+        "ThinkNode_M2_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "ThinkNode_M2_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "ThinkNode M3",
+      "protocol": "MeshCore",
+      "model": "ThinkNode_M3_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "thinknode_m3",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/thinknode_m3/platformio.ini",
+      "release_assets": [
+        "ThinkNode_M3_companion_radio_ble-v1.17.1-d929643.uf2",
+        "ThinkNode_M3_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "ThinkNode M5",
+      "protocol": "MeshCore",
+      "model": "ThinkNode_M5_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "ESP32-S3-WROOM-1-N4",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/thinknode_m5/platformio.ini",
+      "release_assets": [
+        "ThinkNode_M5_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "ThinkNode_M5_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "ThinkNode M6",
+      "protocol": "MeshCore",
+      "model": "ThinkNode_M6_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "thinknode_m6",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/thinknode_m6/platformio.ini",
+      "release_assets": [
+        "ThinkNode_M6_companion_radio_ble-v1.17.1-d929643.uf2",
+        "ThinkNode_M6_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "ThinkNode M7",
+      "protocol": "MeshCore",
+      "model": "ThinkNode_M7_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "thinknode_m7",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/thinknode_m7/platformio.ini",
+      "release_assets": [
+        "ThinkNode_M7_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "ThinkNode_M7_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "ThinkNode M9",
+      "protocol": "MeshCore",
+      "model": "ThinkNode_M9_companion_radio_ble_",
+      "cpu": "ESP32 family",
+      "board": "thinknode_m9",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE source target; release binary not found; untested",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/thinknode_m9/platformio.ini",
+      "release_assets": []
+    },
+    {
+      "name": "WHY2025 badge",
+      "protocol": "MeshCore",
+      "model": "WHY2025_badge_companion_radio_ble_",
+      "cpu": "ESP32 family",
+      "board": "esp32-c6-devkitm-1",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE source target; release binary not found; untested",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/xiao_c6/platformio.ini",
+      "release_assets": []
+    },
+    {
+      "name": "wio wm1110",
+      "protocol": "MeshCore",
+      "model": "wio_wm1110_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "seeed-xiao-afruitnrf52-nrf52840",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/wio_wm1110/platformio.ini",
+      "release_assets": [
+        "wio_wm1110_companion_radio_ble-v1.17.1-d929643.uf2"
+      ]
+    },
+    {
+      "name": "WioTrackerL1",
+      "protocol": "MeshCore",
+      "model": "WioTrackerL1_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "seeed-wio-tracker-l1",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/wio-tracker-l1/platformio.ini",
+      "release_assets": [
+        "WioTrackerL1_companion_radio_ble-v1.17.1-d929643.uf2",
+        "WioTrackerL1_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "WioTrackerL1Eink",
+      "protocol": "MeshCore",
+      "model": "WioTrackerL1Eink_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "seeed-wio-tracker-l1",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/wio-tracker-l1-eink/platformio.ini",
+      "release_assets": [
+        "WioTrackerL1Eink_companion_radio_ble-v1.17.1-d929643.uf2",
+        "WioTrackerL1Eink_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Xiao C3",
+      "protocol": "MeshCore",
+      "model": "Xiao_C3_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "seeed_xiao_esp32c3",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/xiao_c3/platformio.ini",
+      "release_assets": [
+        "Xiao_C3_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Xiao_C3_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Xiao C6",
+      "protocol": "MeshCore",
+      "model": "Xiao_C6_companion_radio_ble_",
+      "cpu": "ESP32 family",
+      "board": "esp32-c6-devkitm-1",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE source target; release binary not found; untested",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/xiao_c6/platformio.ini",
+      "release_assets": []
+    },
+    {
+      "name": "Xiao nrf52",
+      "protocol": "MeshCore",
+      "model": "Xiao_nrf52_companion_radio_ble",
+      "cpu": "nRF52840",
+      "board": "seeed-xiao-afruitnrf52-nrf52840",
+      "display": "No display in this build",
+      "pin": "Configured PIN; stock default 123456",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Configured PIN; stock default 123456. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/xiao_nrf52/platformio.ini",
+      "release_assets": [
+        "Xiao_nrf52_companion_radio_ble-v1.17.1-d929643.uf2",
+        "Xiao_nrf52_companion_radio_ble-v1.17.1-d929643.zip"
+      ]
+    },
+    {
+      "name": "Xiao S3",
+      "protocol": "MeshCore",
+      "model": "Xiao_S3_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "seeed_xiao_esp32s3",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/xiao_s3/platformio.ini",
+      "release_assets": [
+        "Xiao_S3_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Xiao_S3_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "Xiao S3 WIO",
+      "protocol": "MeshCore",
+      "model": "Xiao_S3_WIO_companion_radio_ble",
+      "cpu": "ESP32 family",
+      "board": "seeed_xiao_esp32s3",
+      "display": "Display driver included; detection at boot still matters",
+      "pin": "Displayed random PIN or configured PIN",
+      "status": "Upstream BLE release; BBS hardware test pending",
+      "note": "Displayed random PIN or configured PIN. Companion BLE required; check firmware variant and local radio settings.",
+      "source": "https://github.com/meshcore-dev/MeshCore/blob/d92964352441e53b93e8667b802e04f6e072b39e/variants/xiao_s3_wio/platformio.ini",
+      "release_assets": [
+        "Xiao_S3_WIO_companion_radio_ble-v1.17.1-d929643-merged.bin",
+        "Xiao_S3_WIO_companion_radio_ble-v1.17.1-d929643.bin"
+      ]
+    },
+    {
+      "name": "LILYGO T-LoRa V2",
+      "protocol": "Meshtastic",
+      "model": "TLORA_V2",
+      "hw": 1,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-LoRa V1",
+      "protocol": "Meshtastic",
+      "model": "TLORA_V1",
+      "hw": 2,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-LoRa V2.1-1.6",
+      "protocol": "Meshtastic",
+      "model": "TLORA_V2_1_1P6",
+      "hw": 3,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-Beam",
+      "protocol": "Meshtastic",
+      "model": "TBEAM",
+      "hw": 4,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec V2.0",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_V2_0",
+      "hw": 5,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-Beam V0.7",
+      "protocol": "Meshtastic",
+      "model": "TBEAM_V0P7",
+      "hw": 6,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-Echo",
+      "protocol": "Meshtastic",
+      "model": "T_ECHO",
+      "hw": 7,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-LoRa V1.1-1.3",
+      "protocol": "Meshtastic",
+      "model": "TLORA_V1_1P3",
+      "hw": 8,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK WisBlock 4631",
+      "protocol": "Meshtastic",
+      "model": "RAK4631",
+      "hw": 9,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec V2.1",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_V2_1",
+      "hw": 10,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec V1",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_V1",
+      "hw": 11,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-Beam Supreme",
+      "protocol": "Meshtastic",
+      "model": "LILYGO_TBEAM_S3_CORE",
+      "hw": 12,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK WisBlock 11200",
+      "protocol": "Meshtastic",
+      "model": "RAK11200",
+      "hw": 13,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Nano G1",
+      "protocol": "Meshtastic",
+      "model": "NANO_G1",
+      "hw": 14,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-LoRa V2.1-1.8",
+      "protocol": "Meshtastic",
+      "model": "TLORA_V2_1_1P8",
+      "hw": 15,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-LoRa T3-S3",
+      "protocol": "Meshtastic",
+      "model": "TLORA_T3_S3",
+      "hw": 16,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-LoRa T3-S3 E-Ink",
+      "protocol": "Meshtastic",
+      "model": "TLORA_T3_S3",
+      "hw": 16,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Nano G1 Explorer",
+      "protocol": "Meshtastic",
+      "model": "NANO_G1_EXPLORER",
+      "hw": 17,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Nano G2 Ultra",
+      "protocol": "Meshtastic",
+      "model": "NANO_G2_ULTRA",
+      "hw": 18,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Seeed Wio WM1110 Tracker",
+      "protocol": "Meshtastic",
+      "model": "WIO_WM1110",
+      "hw": 21,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Station G1",
+      "protocol": "Meshtastic",
+      "model": "STATION_G1",
+      "hw": 25,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK WisBlock 11310",
+      "protocol": "Meshtastic",
+      "model": "RAK11310",
+      "hw": 26,
+      "cpu": "rp2040",
+      "status": "Not supported by this Bluetooth BBS connection",
+      "note": "This build needs a radio with the supported Bluetooth client service. USB-only and network-only radios are outside this release.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Canary One",
+      "protocol": "Meshtastic",
+      "model": "CANARYONE",
+      "hw": 29,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RP2040 LoRa",
+      "protocol": "Meshtastic",
+      "model": "RP2040_LORA",
+      "hw": 30,
+      "cpu": "rp2040",
+      "status": "Not supported by this Bluetooth BBS connection",
+      "note": "This build needs a radio with the supported Bluetooth client service. USB-only and network-only radios are outside this release.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Station G2",
+      "protocol": "Meshtastic",
+      "model": "STATION_G2",
+      "hw": 31,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-Echo Plus",
+      "protocol": "Meshtastic",
+      "model": "T_ECHO_PLUS",
+      "hw": 33,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "DIY V1",
+      "protocol": "Meshtastic",
+      "model": "DIY_V1",
+      "hw": 39,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Hydra",
+      "protocol": "Meshtastic",
+      "model": "HYDRA",
+      "hw": 39,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "DR-DEV",
+      "protocol": "Meshtastic",
+      "model": "DR_DEV",
+      "hw": 41,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "M5 Stack",
+      "protocol": "Meshtastic",
+      "model": "M5STACK",
+      "hw": 42,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec V3",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_V3",
+      "hw": 43,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32. Earlier Meshtastic BBS pairing and messaging worked with the owner’s Heltec V3; this release still needs regression testing.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec Wireless Stick Lite V3",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_WSL_V3",
+      "hw": 44,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Raspberry Pi Pico",
+      "protocol": "Meshtastic",
+      "model": "RPI_PICO",
+      "hw": 47,
+      "cpu": "rp2040",
+      "status": "Not supported by this Bluetooth BBS connection",
+      "note": "This build needs a radio with the supported Bluetooth client service. USB-only and network-only radios are outside this release.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Raspberry Pi Pico W",
+      "protocol": "Meshtastic",
+      "model": "RPI_PICO",
+      "hw": 47,
+      "cpu": "rp2040",
+      "status": "Not supported by this Bluetooth BBS connection",
+      "note": "This build needs a radio with the supported Bluetooth client service. USB-only and network-only radios are outside this release.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec Wireless Tracker V1.1",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_WIRELESS_TRACKER",
+      "hw": 48,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec Wireless Tracker V1.0",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_WIRELESS_TRACKER_V1_0",
+      "hw": 58,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec Wireless Paper",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_WIRELESS_PAPER",
+      "hw": 49,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-Deck",
+      "protocol": "Meshtastic",
+      "model": "T_DECK",
+      "hw": 50,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32. Use Bluetooth programming mode or BaseUI if the standalone UI occupies the client API.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-Watch S3",
+      "protocol": "Meshtastic",
+      "model": "T_WATCH_S3",
+      "hw": 51,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32. Use Bluetooth programming mode or BaseUI if the standalone UI occupies the client API.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Pi Computer S3",
+      "protocol": "Meshtastic",
+      "model": "PICOMPUTER_S3",
+      "hw": 52,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec HT62",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_HT62",
+      "hw": 53,
+      "cpu": "esp32-c3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec Wireless Paper V1.0",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_WIRELESS_PAPER_V1_0",
+      "hw": 57,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "unPhone",
+      "protocol": "Meshtastic",
+      "model": "UNPHONE",
+      "hw": 59,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "TrackSenger (small TFT)",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_WIRELESS_TRACKER",
+      "hw": 48,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "TrackSenger (big TFT)",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_WIRELESS_TRACKER",
+      "hw": 48,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "TrackSenger (big OLED)",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_WIRELESS_TRACKER",
+      "hw": 48,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "EBYTE EoRa-S3",
+      "protocol": "Meshtastic",
+      "model": "CDEBYTE_EORA_S3",
+      "hw": 61,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RadioMaster 900 Bandit Nano",
+      "protocol": "Meshtastic",
+      "model": "RADIOMASTER_900_BANDIT_NANO",
+      "hw": 64,
+      "cpu": "esp32",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec Vision Master T190",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_VISION_MASTER_T190",
+      "hw": 66,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec Vision Master E213",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_VISION_MASTER_E213",
+      "hw": 67,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec Vision Master E290",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_VISION_MASTER_E290",
+      "hw": 68,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec Mesh Node T114",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_MESH_NODE_T114",
+      "hw": 69,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Seeed SenseCAP Indicator",
+      "protocol": "Meshtastic",
+      "model": "SENSECAP_INDICATOR",
+      "hw": 70,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Seeed Card Tracker T1000-E",
+      "protocol": "Meshtastic",
+      "model": "TRACKER_T1000_E",
+      "hw": 71,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Seeed Xiao ESP32-S3",
+      "protocol": "Meshtastic",
+      "model": "SEEED_XIAO_S3",
+      "hw": 81,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK WisMesh Tag",
+      "protocol": "Meshtastic",
+      "model": "WISMESH_TAG",
+      "hw": 105,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK WisMesh Tap",
+      "protocol": "Meshtastic",
+      "model": "WISMESH_TAP",
+      "hw": 84,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK WisMesh Repeater",
+      "protocol": "Meshtastic",
+      "model": "WISMESH_HUB",
+      "hw": 22,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "NRF52 Pro-micro DIY",
+      "protocol": "Meshtastic",
+      "model": "NRF52_PROMICRO_DIY",
+      "hw": 63,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Seeed Xiao NRF52840 Kit",
+      "protocol": "Meshtastic",
+      "model": "XIAO_NRF52_KIT",
+      "hw": 88,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "ThinkNode M1",
+      "protocol": "Meshtastic",
+      "model": "THINKNODE_M1",
+      "hw": 89,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "ThinkNode M5",
+      "protocol": "Meshtastic",
+      "model": "THINKNODE_M5",
+      "hw": 107,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "ThinkNode M2",
+      "protocol": "Meshtastic",
+      "model": "THINKNODE_M2",
+      "hw": 90,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "muzi BASE DUO/UNO",
+      "protocol": "Meshtastic",
+      "model": "MUZI_BASE",
+      "hw": 93,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec MeshPocket",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_MESH_POCKET",
+      "hw": 94,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec MeshPocket",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_MESH_POCKET",
+      "hw": 94,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Seeed SenseCAP Solar Node",
+      "protocol": "Meshtastic",
+      "model": "SEEED_SOLAR_NODE",
+      "hw": 95,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Seeed Wio Tracker L1",
+      "protocol": "Meshtastic",
+      "model": "SEEED_WIO_TRACKER_L1",
+      "hw": 99,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Seeed Wio Tracker L1 E-Ink",
+      "protocol": "Meshtastic",
+      "model": "SEEED_WIO_TRACKER_L1_EINK",
+      "hw": 100,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "NomadStar Meteor Pro",
+      "protocol": "Meshtastic",
+      "model": "NOMADSTAR_METEOR_PRO",
+      "hw": 96,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Crowpanel Adv 4.3/5.0/7.0 TFT",
+      "protocol": "Meshtastic",
+      "model": "CROWPANEL",
+      "hw": 97,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Crowpanel Adv 2.4/2.8 TFT",
+      "protocol": "Meshtastic",
+      "model": "CROWPANEL",
+      "hw": 97,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Crowpanel Adv 3.5 TFT",
+      "protocol": "Meshtastic",
+      "model": "CROWPANEL",
+      "hw": 97,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "muzi R1 Neo",
+      "protocol": "Meshtastic",
+      "model": "MUZI_R1_NEO",
+      "hw": 101,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-Deck Pro",
+      "protocol": "Meshtastic",
+      "model": "T_DECK_PRO",
+      "hw": 102,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32. Use Bluetooth programming mode or BaseUI if the standalone UI occupies the client API.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-LoRa Pager",
+      "protocol": "Meshtastic",
+      "model": "T_LORA_PAGER",
+      "hw": 103,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32. Use Bluetooth programming mode or BaseUI if the standalone UI occupies the client API.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec MeshSolar",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_MESH_SOLAR",
+      "hw": 108,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LILYGO T-Echo Lite",
+      "protocol": "Meshtastic",
+      "model": "T_ECHO_LITE",
+      "hw": 109,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "M5Stack Unit C6L",
+      "protocol": "Meshtastic",
+      "model": "M5STACK_C6L",
+      "hw": 111,
+      "cpu": "esp32-c6",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec V4",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_V4",
+      "hw": 110,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec V4 R8",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_V4_R8",
+      "hw": 132,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK3312",
+      "protocol": "Meshtastic",
+      "model": "RAK3312",
+      "hw": 106,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Cardputer Mesh Kit",
+      "protocol": "Meshtastic",
+      "model": "M5STACK_CARDPUTER_ADV",
+      "hw": 112,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec Wireless Tracker V2",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_WIRELESS_TRACKER_V2",
+      "hw": 113,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "ThinkNode M3",
+      "protocol": "Meshtastic",
+      "model": "THINKNODE_M3",
+      "hw": 115,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK WisMesh Tap V2",
+      "protocol": "Meshtastic",
+      "model": "WISMESH_TAP_V2",
+      "hw": 116,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK3401 1W",
+      "protocol": "Meshtastic",
+      "model": "RAK3401",
+      "hw": 117,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK6421 Hat+",
+      "protocol": "Meshtastic",
+      "model": "RAK6421",
+      "hw": 118,
+      "cpu": "portduino",
+      "status": "Not supported by this Bluetooth BBS connection",
+      "note": "This build needs a radio with the supported Bluetooth client service. USB-only and network-only radios are outside this release.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "ThinkNode M4",
+      "protocol": "Meshtastic",
+      "model": "THINKNODE_M4",
+      "hw": 119,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "ThinkNode M6",
+      "protocol": "Meshtastic",
+      "model": "THINKNODE_M6",
+      "hw": 120,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Elecrow Meshstick 1262",
+      "protocol": "Meshtastic",
+      "model": "MESHSTICK_1262",
+      "hw": 121,
+      "cpu": "portduino",
+      "status": "Not supported by this Bluetooth BBS connection",
+      "note": "This build needs a radio with the supported Bluetooth client service. USB-only and network-only radios are outside this release.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LilyGo T-Beam 1W",
+      "protocol": "Meshtastic",
+      "model": "TBEAM_1_WATT",
+      "hw": 122,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LilyGo T5 E-paper S3 Pro",
+      "protocol": "Meshtastic",
+      "model": "T5_S3_EPAPER_PRO",
+      "hw": 123,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LilyGo T5 E-paper S3 Pro V2",
+      "protocol": "Meshtastic",
+      "model": "T5_S3_EPAPER_PRO",
+      "hw": 123,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LilyGo Mini E-paper S3",
+      "protocol": "Meshtastic",
+      "model": "MINI_EPAPER_S3",
+      "hw": 125,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec Mesh Node T096",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_MESH_NODE_T096",
+      "hw": 127,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "ThinkNode M7",
+      "protocol": "Meshtastic",
+      "model": "THINKNODE_M7",
+      "hw": 129,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Station G3",
+      "protocol": "Meshtastic",
+      "model": "STATION_G3",
+      "hw": 134,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LilyGo T-Lora C6",
+      "protocol": "Meshtastic",
+      "model": "TLORA_C6",
+      "hw": 83,
+      "cpu": "esp32-c6",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec Mesh Node T1",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_MESH_NODE_T1",
+      "hw": 133,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Seeed MeshTracker X1",
+      "protocol": "Meshtastic",
+      "model": "MESH_TRACKER_X1",
+      "hw": 128,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Elecrow ThinkNode M8",
+      "protocol": "Meshtastic",
+      "model": "THINKNODE_M8",
+      "hw": 130,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LilyGo T-Beam BPF",
+      "protocol": "Meshtastic",
+      "model": "TBEAM_BPF",
+      "hw": 124,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Elecrow ThinkNode M9",
+      "protocol": "Meshtastic",
+      "model": "THINKNODE_M9",
+      "hw": 131,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "LilyGo T-Echo-Card",
+      "protocol": "Meshtastic",
+      "model": "T_ECHO_CARD",
+      "hw": 136,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "T-Watch Ultra",
+      "protocol": "Meshtastic",
+      "model": "T_WATCH_ULTRA",
+      "hw": 114,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32. Use Bluetooth programming mode or BaseUI if the standalone UI occupies the client API.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec MeshTower V2",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_MESH_TOWER_V2",
+      "hw": 139,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32. MeshTower V2 is an nRF52840 solar product, not the older ESP32 LoRa32 V2.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Meshnology W10",
+      "protocol": "Meshtastic",
+      "model": "MESHNOLOGY_W10",
+      "hw": 140,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec RC32",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_RC32",
+      "hw": 141,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec RC52",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_RC52",
+      "hw": 142,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Heltec RCC6",
+      "protocol": "Meshtastic",
+      "model": "HELTEC_RCC6",
+      "hw": 143,
+      "cpu": "esp32-c6",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Meshnology W12",
+      "protocol": "Meshtastic",
+      "model": "MESHNOLOGY_W12",
+      "hw": 145,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Seeed Wio Tracker L1 Pro 1W",
+      "protocol": "Meshtastic",
+      "model": "SEEED_WIO_TRACKER_L1_PRO_1W",
+      "hw": 144,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK WisMesh Pocket V3",
+      "protocol": "Meshtastic",
+      "model": "RAK4631",
+      "hw": 9,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK WisMesh Repeater Mini V2",
+      "protocol": "Meshtastic",
+      "model": "RAK4631",
+      "hw": 9,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "RAK WisMesh Repeater Mini V2 HP",
+      "protocol": "Meshtastic",
+      "model": "RAK3401",
+      "hw": 117,
+      "cpu": "nrf52840",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Seeed Wio Tracker L2 Pro",
+      "protocol": "Meshtastic",
+      "model": "SEEED_WIO_TRACKER_L2",
+      "hw": 137,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    },
+    {
+      "name": "Axiometa Genesis Mini",
+      "protocol": "Meshtastic",
+      "model": "AXIOMETA_GENESIS_MINI",
+      "hw": 148,
+      "cpu": "esp32-s3",
+      "status": "Bluetooth API candidate; hardware test pending; upstream lists this model inactive",
+      "note": "Display and saved Bluetooth settings determine the PIN; no-screen default is usually 123456. Wi-Fi can disable Bluetooth on ESP32.",
+      "source": "https://github.com/meshtastic/web-flasher/blob/3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3/public/data/hardware-list.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-09-24",
+  "meshcore": {
+    "tag": "companion-v1.17.1",
+    "commit": "d92964352441e53b93e8667b802e04f6e072b39e",
+    "url": "https://github.com/meshcore-dev/MeshCore/releases/tag/companion-v1.17.1"
+  },
+  "meshtastic": {
+    "repo": "meshtastic/web-flasher",
+    "commit": "3a8aaa32135ebad32b5d73a9c0f510fda4b7ecb3",
+    "path": "public/data/hardware-list.json"
+  }
+}
